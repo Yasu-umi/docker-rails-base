@@ -47,3 +47,6 @@ RUN \
   echo "deb http://archive.ubuntu.com/ubuntu precise universe" >> /etc/apt/sources.list && \
   apt-get update && \
   apt-get install -y nodejs
+
+# Define default command.
+CMD ["bash"]
