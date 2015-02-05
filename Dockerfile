@@ -13,9 +13,9 @@ RUN apt-get update && \
     libxslt1-dev \
     libyaml-dev \
     zlib1g-dev && \
-    curl -O http://ftp.ruby-lang.org/pub/ruby/2.1/ruby-2.2.0.tar.gz && \
+    curl -O http://ftp.ruby-lang.org/pub/ruby/2.2/ruby-2.2.0.tar.gz && \
     tar -zxvf ruby-2.2.0.tar.gz && \
-    cd ruby-2.1.2 && \
+    cd ruby-2.2.0 && \
     ./configure --disable-install-doc && \
     make && \
     make install && \
