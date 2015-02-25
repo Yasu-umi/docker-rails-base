@@ -13,9 +13,11 @@ RUN apt-get update && \
       git-core \
       zlib1g-dev \
       libssl-dev \
+      libxml2 \
       libyaml-dev \
       libxml2-dev \
       libxslt1-dev \
+      libmysqld-dev \
       autoconf \
       libncurses5-dev
 
