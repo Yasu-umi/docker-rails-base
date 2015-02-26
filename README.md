@@ -1,4 +1,4 @@
-# docker-rails-base
+# docker-ruby-base
 
 ruby2.1.5(ruby-versions.txt)
 
